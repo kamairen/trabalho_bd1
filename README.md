@@ -26,8 +26,8 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
 
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
-![Arquivo PDF do Protótipo Balsamiq](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Bora Jogar?")
+![Alt text](https://github.com/kamairen/trabalho_bd1/blob/master/balsamiq.png?raw=true "Title")
+![Arquivo PDF do Protótipo Balsamiq](https://github.com/kamairen/trabalho_bd1/blob/master/BD1_Telas.pdf?raw=true "Bora Jogar?")
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
@@ -150,41 +150,3 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
     c) informar aqui o grupo de alunos/dupla que realizou o teste.
 
 >## Marco de Entrega 04 em:<br>
-
-
-### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
-<comentario no git>
-    
-##### About Formatting
-    https://help.github.com/articles/about-writing-and-formatting-on-github/
-    
-##### Basic Formatting in Git
-    
-    https://help.github.com/articles/basic-writing-and-formatting-syntax/#referencing-issues-and-pull-requests
-    
-    
-##### Working with advanced formatting
-    https://help.github.com/articles/working-with-advanced-formatting/
-#### Mastering Markdown
-    https://guides.github.com/features/mastering-markdown/
-
-    
-### OBSERVAÇÕES IMPORTANTES
-
-#### Todos os arquivos que fazem parte do projeto (Imagens, pdfs, arquivos fonte, etc..), devem estar presentes no GIT. Os arquivos do projeto vigente não devem ser armazenados em quaisquer outras plataformas.
-1. <strong>Caso existam arquivos com conteúdos sigilosos<strong>, comunicar o professor que definirá em conjunto com o grupo a melhor forma de armazenamento do arquivo.
-
-#### Todos os grupos deverão fazer Fork deste repositório e dar permissões administrativas ao usuário do git "profmoisesomena", para acompanhamento do trabalho.
-
-#### Os usuários criados no GIT devem possuir o nome de identificação do aluno (não serão aceitos nomes como Eu123, meuprojeto, pro456, etc). Em caso de dúvida comunicar o professor.
-
-
-Link para BrModelo:<br>
-http://www.sis4.com/brModelo/download.html
-<br>
-
-
-Link para curso de GIT<br>
-![https://www.youtube.com/curso_git](https://www.youtube.com/playlist?list=PLo7sFyCeiGUdIyEmHdfbuD2eR4XPDqnN2?raw=true "Title")
-
-
