@@ -41,7 +41,7 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
         
-![Tabela de dados de Bora Jogar?](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Bora Jogar?")
+![Tabela de dados de Bora Jogar?](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/Tabela_Geral.xlsx?raw=true "Tabela - Bora Jogar?")
     
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO 
