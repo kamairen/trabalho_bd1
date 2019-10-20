@@ -27,6 +27,7 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 
 
 ![Tela Inicial](https://github.com/kamairen/trabalho_bd1/blob/master/balsamiq.png?raw=true "Tela Inicial")
+
 ![Arquivo PDF do Protótipo Balsamiq](https://github.com/kamairen/trabalho_bd1/blob/master/BD1_Telas.pdf?raw=true "Bora Jogar?")
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
