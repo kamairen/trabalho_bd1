@@ -45,8 +45,9 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 ### 5.MODELO CONCEITUAL<br>
 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/images/BD1_Conceitual.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
 
-<img src="https://github.com/discipbd1/trab01/blob/master/images/BD1_Conceitual.png">
+
 
 
     
