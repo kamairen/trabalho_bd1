@@ -23,7 +23,7 @@ Este documento contém a especificação do projeto do banco de dados "Bora Joga
 > Um grupo de amigos gosta de praticar esportes juntos. Porém nem sempre há um time adversário ou as vezes a quantidade mínima de jogadores não é o suficiente para um jogo acontecer. No caso do futebol, por exemplo, são 5 em cada time, totalizando um mínimo de 10 jogadores. Também já houveram situações em que, com a partida combinada, ao chegar no local o outro time não compareceu. Estas situações fazem com que os amigos se sintam frustrados ao tentar se divertir praticando esportes.
 A ideia proposta do sistema por eles é de um serviço que, principalmente, encontre times próximos para que seja combinada uma partida, possam cadastrar suas equipes, verificar estatísticas do time e dos seus integrantes. O grupo também vê necessário a possibilidade de confirmação de presença na partida por cada jogador, busca por região, diferentes modalidades de esportes e ranking de equipes.
  
-
+ 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
 ![Arquivo PDF do Protótipo Balsamiq](https://github.com/kamairen/trabalho_bd1/blob/master/BD1_Telas.pdf?raw=true "Bora Jogar?")
