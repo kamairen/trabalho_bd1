@@ -44,7 +44,7 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
   
 ### 5.MODELO CONCEITUAL<br>
 
-![Imagem do Modelo Conceitual](https://github.com/discipbd1/trab01/blob/master/images/BD1_Conceitual.png?raw=true "Modelo Conceitual")
+![Imagem do Modelo Conceitual](https://github.com/kamairen/trabalho_bd1/blob/master/images/BD1_Conceitual.png?raw=true "Modelo Conceitual")
 
 
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
