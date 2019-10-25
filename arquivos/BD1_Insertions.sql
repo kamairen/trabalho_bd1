@@ -1,5 +1,5 @@
 /*TABLE JOGADOR*/
-INSERT INTO Jogador(Email,Senha,Nome_completo,Foto,Data_Nascimento,Sexo,Latitude,Longitude) VALUES
+INSERT INTO Jogador(Email,Senha,Nome_completo,Foto,Data_Nascimento,Sexo,Latitude_atual,Longitude_atual) VALUES
 ('Kaiofabiogs@hotmail.com','eeS7EiSoghai','Kaio Fabio Barbosa Rodrigues','C:\Servidor\BoraJogar\Usuarios\Fotos\img1.png','1987-02-10','M','-20.307040','-40.322571'),
 ('Maiky@hotmail.com','Bo6lah1aiqu','Maiky Pereira Pinto','C:\Servidor\BoraJogar\Usuarios\Fotos\img2.png','1979-01-21','M','-20.299312','-40.310898'),
 ('BiancaHs@Hotmail.com','lollypop','Bianca Souza Vieira','C:\Servidor\BoraJogar\Usuarios\Fotos\img3.png','1980-01-20','F','-20.361124','-40.358276'),
@@ -22,6 +22,11 @@ INSERT INTO Jogador(Email,Senha,Nome_completo,Foto,Data_Nascimento,Sexo,Latitude
 ('matheuscomelia@gmail.com','pratinha','Matheus Comelio','C:\Servidor\BoraJogar\Usuarios\Fotos\img20.png','2007-10-20','M','-12.178965','-432.773438'),
 ('nandomoura@gmail.com','barbudoburro','Nando Moura','C:\Servidor\BoraJogar\Usuarios\Fotos\img21.png','1971-04-09','M','36.675028','-580.407715');
 
+INSERT INTO Modalidade(id,nome) VALUES
+(0,"Futebol"),
+(1,"Voley"),
+(2,"Basquete"),
+
 INSERT INTO Time(Latitude,Longitude,Data_fundacao,Nome_time,Logo,Id_Capitao) VALUES
 ('-23.097418','-43.219780','2019-08-15','BayerDeMaýke','C:\Servidor\BoraJogar\Times\Fotos\img1.png',21),
 ('-15.048253','-47.173129','2019-09-16','ChuMaýke','C:\Servidor\BoraJogar\Times\Fotos\img2.png',15),
@@ -31,40 +36,40 @@ INSERT INTO Time(Latitude,Longitude,Data_fundacao,Nome_time,Logo,Id_Capitao) VAL
 ('-20.268478','-40.506726','2019-06-18','Os maozinhas','C:\Servidor\BoraJogar\Times\Fotos\img5.png',2),
 ('-19.566098','-40.298006','2019-04-25','20Matar70Correr','C:\Servidor\BoraJogar\Times\Fotos\img5.png',4);
 
-INSERT INTO Partida(Latitude,Longitude,Data_Partida,Modalidade,Hora_partida,Qtd_jog_partida,Endereco,Id_Time) VALUES
-('-23.097418','-43.219780','2020-07-22','Futebol','15:00:00',5,'Rua Beira Mar',1),
-('-18.783792','-39.921198','2020-11-10','Futebol','19:00:00',5,'Praça Dos namorados',5),
-('-23.097418','-43.219780','2020-10-03','Futebol','12:00:00',5,'Rua Beira Mar',1),
-('-18.783792','-39.921198','2020-09-03','Futebol','20:00:00',5,'Praça Dos namorados',5),
-('-23.097418','-43.219780','2019-07-12','Futebol','21:00:00',5,'Rua Beira Mar',1),
-('-18.783792','-39.921198','2019-06-30','Futebol','20:00:00',5,'Praça Dos namorados',5),
-('-23.097418','-43.219780','2019-11-27','Futebol','18:00:00',5,'Rua Beira Mar',1),
-('-18.783792','-39.921198','2019-09-26','Futebol','22:00:00',5,'Praça Dos namorados',5),
-('-23.097418','-43.219780','2019-01-04','Futebol','13:00:00',5,'Rua Beira Mar',1),
-('-18.783792','-39.921198','2020-09-06','Futebol','8:00:00',5,'Praça Dos namorados',5),
-('-23.097418','-43.219780','2020-11-13','Futebol','22:00:00',5,'Rua Beira Mar',1),
-('-18.783792','-39.921198','2020-10-01','Futebol','10:00:00',5,'Praça Dos namorados',5),
-('-20.511606','-40.887842','2019-12-18','Futebol','19:00:00',5,'Praça do Barça',3),
-('-20.511606','-40.887842','2019-04-24','Futebol','18:00:00',5,'Praça do Barça',3),
-('-20.511606','-40.887842','2020-09-15','Futebol','17:00:00',5,'Praça do Barça',3),
-('-20.511606','-40.887842','2019-09-13','Futebol','13:00:00',5,'Praça do Barça',3),
-('-20.511606','-40.887842','2019-03-27','Futebol','12:00:00',5,'Praça do Barça',3),
-('-20.511606','-40.887842','2020-06-28','Futebol','21:00:00',5,'Praça do Barça',3),
-('-20.511606','-40.887842','2019-03-28','Futebol','22:00:00',5,'Praça do Barça',3),
-('-20.511606','-40.887842','2019-04-22','Futebol','12:00:00',5,'Praça do Barça',3),
-('-20.511606','-40.887842','2019-05-17','Futebol','14:00:00',5,'Praça do Barça',3),
-('-20.268478','-40.506726','2020-06-05','Voley','14:00:00',6,'Praça Ricardinho',6),
-('-20.268478','-40.506726','2019-06-14','Voley','17:00:00',6,'Praça Ricardinho',6),
-('-20.268478','-40.506726','2019-04-21','Voley','18:00:00',6,'Praça Ricardinho',6),
-('-20.268478','-40.506726','2019-02-01','Voley','15:00:00',6,'Praça Ricardinho',6),
-('-20.268478','-40.506726','2019-10-24','Voley','12:00:00',6,'Praça Ricardinho',6),
-('-21.127739','-40.854897','2019-06-10','Basquete','18:00:00',5,'Praça ZéMaria',4),
-('-21.127739','-40.854897','2020-09-01','Basquete','15:00:00',5,'Praça ZéMaria',4),
-('-21.127739','-40.854897','2020-03-02','Basquete','12:00:00',5,'Praça ZéMaria',4),
-('-21.127739','-40.854897','2019-11-08','Basquete','14:00:00',5,'Praça ZéMaria',4),
-('-21.127739','-40.854897','2019-02-07','Basquete','16:00:00',5,'Praça ZéMaria',4),
-('-21.127739','-40.854897','2019-06-11','Basquete','22:00:00',5,'Praça ZéMaria',4),
-('-21.127739','-40.854897','2019-10-12','Basquete','21:00:00',5,'Praça ZéMaria',4);
+INSERT INTO Partida(Latitude,Longitude,Data_Partida,Id_Modalidade,Hora_partida,Qtd_jog_partida,Endereco,Id_Time) VALUES
+('-23.097418','-43.219780','2020-07-22',0,'15:00:00',5,'Rua Beira Mar',1),
+('-18.783792','-39.921198','2020-11-10',0,'19:00:00',5,'Praça Dos namorados',5),
+('-23.097418','-43.219780','2020-10-03',0,'12:00:00',5,'Rua Beira Mar',1),
+('-18.783792','-39.921198','2020-09-03',0,'20:00:00',5,'Praça Dos namorados',5),
+('-23.097418','-43.219780','2019-07-12',0,'21:00:00',5,'Rua Beira Mar',1),
+('-18.783792','-39.921198','2019-06-30',0,'20:00:00',5,'Praça Dos namorados',5),
+('-23.097418','-43.219780','2019-11-27',0,'18:00:00',5,'Rua Beira Mar',1),
+('-18.783792','-39.921198','2019-09-26',0,'22:00:00',5,'Praça Dos namorados',5),
+('-23.097418','-43.219780','2019-01-04',0,'13:00:00',5,'Rua Beira Mar',1),
+('-18.783792','-39.921198','2020-09-06',0,'8:00:00',5,'Praça Dos namorados',5),
+('-23.097418','-43.219780','2020-11-13',0,'22:00:00',5,'Rua Beira Mar',1),
+('-18.783792','-39.921198','2020-10-01',0,'10:00:00',5,'Praça Dos namorados',5),
+('-20.511606','-40.887842','2019-12-18',0,'19:00:00',5,'Praça do Barça',3),
+('-20.511606','-40.887842','2019-04-24',0,'18:00:00',5,'Praça do Barça',3),
+('-20.511606','-40.887842','2020-09-15',0,'17:00:00',5,'Praça do Barça',3),
+('-20.511606','-40.887842','2019-09-13',0,'13:00:00',5,'Praça do Barça',3),
+('-20.511606','-40.887842','2019-03-27',0,'12:00:00',5,'Praça do Barça',3),
+('-20.511606','-40.887842','2020-06-28',0,'21:00:00',5,'Praça do Barça',3),
+('-20.511606','-40.887842','2019-03-28',0,'22:00:00',5,'Praça do Barça',3),
+('-20.511606','-40.887842','2019-04-22',0,'12:00:00',5,'Praça do Barça',3),
+('-20.511606','-40.887842','2019-05-17',0,'14:00:00',5,'Praça do Barça',3),
+('-20.268478','-40.506726','2020-06-05',1,'14:00:00',6,'Praça Ricardinho',6),
+('-20.268478','-40.506726','2019-06-14',1,'17:00:00',6,'Praça Ricardinho',6),
+('-20.268478','-40.506726','2019-04-21',1,'18:00:00',6,'Praça Ricardinho',6),
+('-20.268478','-40.506726','2019-02-01',1,'15:00:00',6,'Praça Ricardinho',6),
+('-20.268478','-40.506726','2019-10-24',1,'12:00:00',6,'Praça Ricardinho',6),
+('-21.127739','-40.854897','2019-06-10',2,'18:00:00',5,'Praça ZéMaria',4),
+('-21.127739','-40.854897','2020-09-01',2,'15:00:00',5,'Praça ZéMaria',4),
+('-21.127739','-40.854897','2020-03-02',2,'12:00:00',5,'Praça ZéMaria',4),
+('-21.127739','-40.854897','2019-11-08',2,'14:00:00',5,'Praça ZéMaria',4),
+('-21.127739','-40.854897','2019-02-07',2,'16:00:00',5,'Praça ZéMaria',4),
+('-21.127739','-40.854897','2019-06-11',2,'22:00:00',5,'Praça ZéMaria',4),
+('-21.127739','-40.854897','2019-10-12',2,'21:00:00',5,'Praça ZéMaria',4);
 
 INSERT INTO Registro(placar_proponente,placar_convidado,Id_Partida,Id_Time) VALUES
 (2,0,1,2),
@@ -167,6 +172,3 @@ INSERT INTO Chat(Id_partida) VALUES
 (30),
 (31),
 (32);
-INSERT INTO Mensagem(Mensagem,Id_Chat,Id_jogador) VALUES
-
-Mensagem

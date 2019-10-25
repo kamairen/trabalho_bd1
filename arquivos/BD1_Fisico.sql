@@ -1,4 +1,4 @@
-/* BD1_Logico: */
+/* Logico: */
 
 CREATE TABLE Time (
     Latitude Float,
@@ -7,7 +7,7 @@ CREATE TABLE Time (
     Nome_time Varchar(45),
     Logo VARCHAR(255),
     Id_Time SERIAL PRIMARY KEY,
-    fk_Jogador_Id_jogador SERIAL
+    Id_Capitao SERIAL
 );
 
 CREATE TABLE Jogador (
@@ -30,29 +30,29 @@ CREATE TABLE Partida (
     Hora_agendamento Time,
     Qtd_jog_partida INT,
     Endereco Varchar(255),
-    fk_Time_Id_Time SERIAL,
-    fk_Modalidade_id SERIAL
+    Id_Time SERIAL,
+    Id_Modalidade SERIAL
 );
 
 CREATE TABLE Registro (
     Id_registro SERIAL PRIMARY KEY,
     placar_proponente INT,
     placa_convidado INT,
-    fk_Partida_Id_Partida SERIAL,
-    fk_Time_Id_Time SERIAL
+    Id_Partida SERIAL,
+    Id_Time SERIAL
 );
 
 CREATE TABLE Chat (
     idChat INT PRIMARY KEY,
-    fk_Partida_Id_Partida SERIAL
+    Id_Partida SERIAL
 );
 
 CREATE TABLE Mensagem (
     idMensagem INT PRIMARY KEY,
     Mensagem TEXT,
     Data TIMESTAMP,
-    fk_Chat_idChat INT,
-    fk_Jogador_Id_jogador SERIAL
+    Id_Chat INT,
+    Id_Jogador SERIAL
 );
 
 CREATE TABLE Modalidade (
@@ -60,57 +60,57 @@ CREATE TABLE Modalidade (
     nome VARCHAR(50)
 );
 
-CREATE TABLE Joga_em_um (
-    fk_Jogador_Id_jogador SERIAL,
-    fk_Time_Id_Time SERIAL
+CREATE TABLE Jogador_Time (
+    Id_Jogador SERIAL,
+    Id_Time SERIAL
 );
  
 ALTER TABLE Time ADD CONSTRAINT FK_Time_2
-    FOREIGN KEY (fk_Jogador_Id_jogador)
+    FOREIGN KEY (Id_Capitao)
     REFERENCES Jogador (Id_jogador)
     ON DELETE RESTRICT;
  
 ALTER TABLE Partida ADD CONSTRAINT FK_Partida_2
-    FOREIGN KEY (fk_Time_Id_Time)
+    FOREIGN KEY (Id_Time)
     REFERENCES Time (Id_Time)
     ON DELETE CASCADE;
  
 ALTER TABLE Partida ADD CONSTRAINT FK_Partida_3
-    FOREIGN KEY (fk_Modalidade_id)
+    FOREIGN KEY (Id_Modalidade)
     REFERENCES Modalidade (id)
     ON DELETE CASCADE;
  
 ALTER TABLE Registro ADD CONSTRAINT FK_Registro_2
-    FOREIGN KEY (fk_Partida_Id_Partida)
+    FOREIGN KEY (Id_Partida)
     REFERENCES Partida (Id_Partida)
     ON DELETE CASCADE;
  
 ALTER TABLE Registro ADD CONSTRAINT FK_Registro_3
-    FOREIGN KEY (fk_Time_Id_Time)
+    FOREIGN KEY (Id_Time)
     REFERENCES Time (Id_Time)
     ON DELETE CASCADE;
  
 ALTER TABLE Chat ADD CONSTRAINT FK_Chat_2
-    FOREIGN KEY (fk_Partida_Id_Partida)
+    FOREIGN KEY (Id_Partida)
     REFERENCES Partida (Id_Partida)
     ON DELETE CASCADE;
  
 ALTER TABLE Mensagem ADD CONSTRAINT FK_Mensagem_2
-    FOREIGN KEY (fk_Chat_idChat)
+    FOREIGN KEY (Id_Chat)
     REFERENCES Chat (idChat)
     ON DELETE CASCADE;
  
 ALTER TABLE Mensagem ADD CONSTRAINT FK_Mensagem_3
-    FOREIGN KEY (fk_Jogador_Id_jogador)
+    FOREIGN KEY (Id_Jogador)
     REFERENCES Jogador (Id_jogador)
     ON DELETE CASCADE;
  
-ALTER TABLE Joga_em_um ADD CONSTRAINT FK_Joga_em_um_1
-    FOREIGN KEY (fk_Jogador_Id_jogador)
+ALTER TABLE Jogador_Time ADD CONSTRAINT FK_Jogador_Time_1
+    FOREIGN KEY (Id_Jogador)
     REFERENCES Jogador (Id_jogador)
     ON DELETE SET NULL;
  
-ALTER TABLE Joga_em_um ADD CONSTRAINT FK_Joga_em_um_2
-    FOREIGN KEY (fk_Time_Id_Time)
+ALTER TABLE Jogador_Time ADD CONSTRAINT FK_Jogador_Time_2
+    FOREIGN KEY (Id_Time)
     REFERENCES Time (Id_Time)
     ON DELETE SET NULL;
