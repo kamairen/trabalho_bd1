@@ -5,10 +5,10 @@ Trabalho desenvolvido durante a disciplina de BD1
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-Kaio:kaiofabiogs06@gmail.com<br>
-Maiksuel:maiky.braga@gmail.com<br>
-Renato:renatosalopes@gmail.com<br>
-Wilian:willianirl639@gmail.com<br>
+Kaio: kaiofabiogs06@gmail.com<br>
+Maiksuel: maiky.braga@gmail.com<br>
+Renato: renatosalopes@gmail.com<br>
+Wilian: willianirl639@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados "Bora Jogar?"
