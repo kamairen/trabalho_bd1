@@ -120,11 +120,11 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
     
 ### 6	MODELO LÓGICO<br>
 
-![Alt text](https://github.com/discipbd1/trab01/blob/master/images/BD1_Logico.png?raw=true "Modelo Conceitual")
+![Imagem do modelo lógico](https://github.com/kamairen/trabalho_bd1/blob/master/images/BD1_Logico.png?raw=true "Modelo Lógico")
 
 ### 7	MODELO FÍSICO<br>
         
-![Tabela de dados de Bora Jogar?](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/BD1_Fisico.sql?raw=true "Tabela - Bora Jogar?")
+![Códigos do modelo físico](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/BD1_Fisico.sql?raw=true "Modelo físico")
         
 >## Marco de Entrega 01 em:<br>
         
@@ -135,8 +135,7 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
         
-![Tabela de dados de Bora Jogar?](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/BD1_Insertions.sql?raw=true "Tabela - Bora Jogar?")        
-        
+![Códigos dos Inserts](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/BD1_Insertions.sql?raw=true "Inserts")        
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
