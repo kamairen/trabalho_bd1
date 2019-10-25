@@ -53,7 +53,7 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
         Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null e tuplas falsas
           
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
+    [Estour]: Alexandre Jastrow
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
