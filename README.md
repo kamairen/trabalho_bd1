@@ -46,7 +46,7 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/images/BD1_Conceitual.png?raw=true "Modelo Conceitual")
     
-https://github.com/discipbd1/trab01/blob/master/images/BD1_Conceitual.png?raw=true "Modelo Conceitual"
+https://github.com/discipbd1/trab01/blob/master/images/BD1_Conceitual.png
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
