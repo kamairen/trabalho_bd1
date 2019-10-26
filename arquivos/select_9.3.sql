@@ -1,3 +1,7 @@
+import psycopg2
+conn = psycopg2.connect(host = "tuffi.db.elephantsql.com", port = "5432", database = "epiisgzj", user = "epiisgzj", password = "rPcFrCdmPfIHaGYn_j105uSkXOf1Q2up")
+cur = conn.cursor()
+
 print("1")
 #Seleciona todos os times que possuem Capitao com id 5
 cur.execute("""select * from time as tm where id_capitao > 5 """)
