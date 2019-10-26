@@ -139,23 +139,34 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-    OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
-#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)
+
+#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)<br>
+
 ![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.1.sql?raw=true "Inserts") 
+
 ![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.1_01.png?raw=true "Modelo Lógico")
 ![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.1_02.png?raw=true "Modelo Lógico")
 ![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.1_03.png?raw=true "Modelo Lógico")
 ![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.1_04.png?raw=true "Modelo Lógico")
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+
+![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.2.sql?raw=true "Inserts") 
+
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.2.png?raw=true "Modelo Lógico")
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
-    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
-    b) Criar no mínimo 3 consultas com operadores aritméticos 
-    c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+
+![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.1.sql?raw=true "Inserts") 
+
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.3_01.png?raw=true "Modelo Lógico")
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.3_02.png?raw=true "Modelo Lógico")
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
-    a) Criar outras 5 consultas que envolvam like ou ilike
-    b) Criar uma consulta para cada tipo de função data apresentada.
+
+![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.4.sql?raw=true "Inserts") 
+
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.4.png?raw=true "Modelo Lógico")
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
