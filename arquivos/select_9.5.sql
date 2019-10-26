@@ -15,7 +15,7 @@ cur.execute("""DELETE FROM Jogador WHERE id_jogador = 18""")
 cur.execute("""DELETE FROM Partida WHERE id_partida = 2 """)  
 
 #Atualiza a modalidade de uma partida com id 3
-cur.execute("""UPDATE Modalidade SET nome = 'Handball' WHERE id = 3""")
+cur.execute("""UPDATE registro SET placar_proponente = 11 WHERE id_partida = 1""")
 
-#Deleta o jogador Nando Moura
-cur.execute("""DELETE FROM jogador WHERE Nome_completo = '	Juliano Moura Matos'""")
+#Atualiza o jogador Nando Moura
+cur.execute("""UPDATE jogador SET Nome_completo = 'Dando Boura'""")
