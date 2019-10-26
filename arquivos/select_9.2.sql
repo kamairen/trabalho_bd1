@@ -1,3 +1,7 @@
+import psycopg2
+conn = psycopg2.connect(host = "tuffi.db.elephantsql.com", port = "5432", database = "epiisgzj", user = "epiisgzj", password = "rPcFrCdmPfIHaGYn_j105uSkXOf1Q2up")
+cur = conn.cursor()
+
 #Seleciona todos os jogadores do sexo masculino
 cur.execute("""select * from jogador where sexo = 'M'""")
 result = cur.fetchall()
