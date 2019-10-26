@@ -140,7 +140,13 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
-#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)
+![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.1.sql?raw=true "Inserts") 
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.1_01.png?raw=true "Modelo Lógico")
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.1_02.png?raw=true "Modelo Lógico")
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.1_03.png?raw=true "Modelo Lógico")
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.1_04.png?raw=true "Modelo Lógico")
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
