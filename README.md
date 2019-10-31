@@ -54,7 +54,7 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
           
 #### 5.1 Validação do Modelo Conceitual
     [Estour]: Alexandre Jastrow
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Pets]: Matheus Scheneider
 
 #### 5.2 Descrição dos dados 
     
