@@ -184,12 +184,21 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 ![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.7.sql "Inserts") 
+
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.7_01.png?raw=true "Resultados")
+
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.7_02.png?raw=true "Resultados")
+
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+
 ![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.8.sql "Inserts") 
+
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
+
 ![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.9.sql "Inserts")
 
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
+
 ![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.10.sql "Inserts") 
 
 
