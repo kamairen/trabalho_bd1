@@ -175,7 +175,9 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 ![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.6.sql "Inserts") 
 
 ![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.6%20(1).jpg?raw=true "Resultados")
+
 ![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.6%20(2).jpg?raw=true "Resultados")
+
 ![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.6%20(3).jpg?raw=true "Resultados")
 
 >## Marco de Entrega 02 em:<br>
