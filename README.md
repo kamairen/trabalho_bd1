@@ -209,6 +209,15 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 
 ![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.10.sql "Inserts") 
 
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.10_01.png?raw=true "Resultados")
+
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.10_02.png?raw=true "Resultados")
+
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.10_03.png?raw=true "Resultados")
+
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.10_04.png?raw=true "Resultados")
+
+
 
 #### 9.11 Relatórios e Gráficos 
     a)análises e resultados provenientes do banco de dados
