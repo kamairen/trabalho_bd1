@@ -193,6 +193,14 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 
 ![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.8.sql "Inserts") 
 
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.8_01.png?raw=true "Resultados")
+
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.8_02.png?raw=true "Resultados")
+
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.8_03.png?raw=true "Resultados")
+
+![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.8_04.png?raw=true "Resultados")
+
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
 
 ![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.9.sql "Inserts")
