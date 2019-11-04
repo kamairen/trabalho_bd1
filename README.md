@@ -169,20 +169,26 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 ![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.4.png?raw=true "Modelo Lógico")
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/Select_9.5.sql?raw=true "Inserts") 
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
+![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/Select_9.6.sql?raw=true "Inserts") 
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
 
 >## Marco de Entrega 02 em:<br>
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
+![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/Select_9.7.sql?raw=true "Inserts") 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/Select_9.8.sql?raw=true "Inserts") 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
+![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/Select_9.9.sql?raw=true "Inserts") 
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
 
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
+![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/Select_9.10.sql?raw=true "Inserts") 
 
 
 #### 9.11 Relatórios e Gráficos 
