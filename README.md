@@ -142,81 +142,23 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)<br>
 
-![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.1.sql?raw=true "Inserts") 
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.1_01.png?raw=true "Resultados")
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.1_02.png?raw=true "Resultados")
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.1_03.png?raw=true "Resultados")
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.1_04.png?raw=true "Resultados")
-
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
-
-![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.2.sql?raw=true "Inserts") 
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.2.png?raw=true "Resultados")
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
 
-![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.1.sql?raw=true "Inserts") 
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.3_01.png?raw=true "Resultados")
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.3_02.png?raw=true "Resultados")
-
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
 
-![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.4.sql?raw=true "Inserts") 
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.4.png?raw=true "Resultados")
-
-#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
-![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.5.sql "Inserts") 
+#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br> 
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
-![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.6.sql "Inserts") 
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.6%20(1).jpg?raw=true "Resultados")
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.6%20(2).jpg?raw=true "Resultados")
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.6%20(3).jpg?raw=true "Resultados")
-
->## Marco de Entrega 02 em:<br>
 
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
-![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.7.sql "Inserts") 
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.7_01.png?raw=true "Resultados")
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.7_02.png?raw=true "Resultados")
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 
-![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.8.sql "Inserts") 
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.8_01.png?raw=true "Resultados")
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.8_02.png?raw=true "Resultados")
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.8_03.png?raw=true "Resultados")
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.8_04.png?raw=true "Resultados")
-
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
 
-![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.9.sql "Inserts")
-
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
-
-![Código SQL](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/select_9.10.sql "Inserts") 
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.10_01.png?raw=true "Resultados")
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.10_02.png?raw=true "Resultados")
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.10_03.png?raw=true "Resultados")
-
-![](https://github.com/kamairen/trabalho_bd1/blob/master/images/select_9.10_04.png?raw=true "Resultados")
-
 
 
 #### 9.11 Relatórios e Gráficos 
