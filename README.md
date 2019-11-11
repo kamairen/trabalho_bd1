@@ -139,6 +139,7 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
+ Link para o colab do projeto: https://colab.research.google.com/drive/1RpfRdm2M1GlbCMt-lfwXSeBgvJtalwAD
 
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)<br>
 
