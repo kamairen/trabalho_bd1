@@ -116,7 +116,7 @@ Versão adaptada para o escopo do trabalho
     
 ### 6	MODELO LÓGICO<br>
 
-![Imagem do modelo lógico](https://github.com/kamairen/trabalho_bd1/blob/master/images/BD1_Logico.png?raw=true "Modelo Lógico")
+![Imagem do modelo lógico](https://github.com/kamairen/trabalho_bd1/blob/master/images/BD1_Logico.jpg?raw=true "Modelo Lógico")
 
 ### 7	MODELO FÍSICO<br>
         
