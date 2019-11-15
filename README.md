@@ -136,3 +136,7 @@ Versão adaptada para o escopo do trabalho
 ### 11 Backup completo do banco de dados postgres 
 
 ![Backup](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/BoraJogar.backup?raw=true "Backup")
+
+#### Validação do Backup
+    [Estour]: Carolina
+    [AppDoacções]: Vinicius
