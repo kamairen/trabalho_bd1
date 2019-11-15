@@ -47,7 +47,7 @@ Primeira versão da tabela.
 ### 5.MODELO CONCEITUAL<br>
 
 Versão completa
-![Imagem do Modelo Conceitual](https://github.com/kamairen/trabalho_bd1/blob/master/images/BD1_Conceitual_Completo.png?raw=true "Modelo Conceitual")
+![Imagem do Modelo Conceitual Completo](https://github.com/kamairen/trabalho_bd1/blob/master/images/BD1_Conceitual_Completo.png?raw=true "Modelo Conceitual")
 
 Versão adaptada para o escopo do trabalho
 ![Imagem do Modelo Conceitual](https://github.com/kamairen/trabalho_bd1/blob/master/images/BD1_Conceitual.png?raw=true "Modelo Conceitual")
