@@ -21,7 +21,7 @@ Este documento contém a especificação do projeto do banco de dados "Bora Joga
 ### 3.MINI-MUNDO<br>
 
 > Um grupo de amigos gosta de praticar esportes juntos. Porém nem sempre há um time adversário ou as vezes a quantidade mínima de jogadores não é o suficiente para um jogo acontecer. No caso do futebol, por exemplo, são 5 em cada time, totalizando um mínimo de 10 jogadores. Também já houveram situações em que, com a partida combinada, ao chegar no local o outro time não compareceu. Estas situações fazem com que os amigos se sintam frustrados ao tentar se divertir praticando esportes.
-A ideia proposta do sistema por eles é de um serviço que, principalmente, encontre times próximos para que seja combinada uma partida, possam cadastrar suas equipes, verificar estatísticas do time e dos seus integrantes. O grupo também vê necessário a possibilidade de confirmação de presença na partida por cada jogador, busca por região, diferentes modalidades de esportes e ranking de equipes.
+A ideia proposta do sistema por eles é de um serviço que, principalmente, encontre times próximos para que seja combinada uma partida, possam cadastrar suas equipes e verificar estatísticas dos times. O grupo também vê necessário a possibilidade de confirmação de presença na partida por cada jogador, busca por região, diferentes modalidades de esportes e ranking de equipes.
  
  
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
@@ -31,30 +31,30 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
 > Os clientes precisam inicialmente dos seguintes relatórios:
-* Relatório que informe quais jogadores possuem mais de 40 anos;
-* Relatório que informe qual a pontuação de cada time;
-* Relatório com a quantidade de jogadores masculino e feminino de cada time;
-* Relatório com o percentual de cada modalidade cadastrada no sistema;
-* Relatório com a quantidade de partidas jogadas por cada time.
+* Relatório da preferência de modalidade dos usuarios;
+* Relatório da atividade dos times por esporte;
+* Relatório para análise da idade media dos times influencia no desempenho;
+* Relatório da performance do time ao longo do tempo;
+* Relatório da atividade de outros times em relação a outro.
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
+
+Primeira versão da tabela.
         
 ![Tabela de dados de Bora Jogar?](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/Tabela_Geral.xlsx?raw=true "Tabela - Bora Jogar?")
   
 ### 5.MODELO CONCEITUAL<br>
 
+Versão completa
+![Imagem do Modelo Conceitual](https://github.com/kamairen/trabalho_bd1/blob/master/images/BD1_Conceitual_Completo.png?raw=true "Modelo Conceitual")
+
+Versão adaptada para o escopo do trabalho
 ![Imagem do Modelo Conceitual](https://github.com/kamairen/trabalho_bd1/blob/master/images/BD1_Conceitual.png?raw=true "Modelo Conceitual")
-
-
-    B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-    C) QUALIDADE 
-        Garantir que a semântica dos atributos seja clara no esquema
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null e tuplas falsas
           
 #### 5.1 Validação do Modelo Conceitual
     [Estour]: Alexandre Jastrow
-    [Pets]: Matheus Scheneider
+    [PetsMe]: Matheus Scheneider
 
 #### 5.2 Descrição dos dados 
     
@@ -97,10 +97,6 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
     DATA: campo que armazena a data e hora referente a cada mensagem.
     
 #### 5.3 Principais fluxos de informação e principais tabelas do sistema     
-    a) Quais os principais fluxos de dados de informação no sistema em densenvolvimento (mínimo 3)
-    b) Quais as tabelas que conterão mais dados no sistema em densenvolvimento (mínimo 3)
-    c) informe quais as 5 principais tabelas do sistema em densenvolvimento.
-    
     Os três fluxos de dados mais comuns serão:
     Time busca uma partida
     Time cria uma partida
@@ -129,23 +125,12 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 >## Marco de Entrega 01 em:<br>
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
-        
+
 ![Códigos dos Inserts](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/BD1_Insertions.sql?raw=true "Inserts")        
 
 
-### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
+### 9	TABELAS, PRINCIPAIS CONSULTAS E RELATÓRIOS<br>
  Link para o colab do projeto: https://colab.research.google.com/drive/1RpfRdm2M1GlbCMt-lfwXSeBgvJtalwAD
-
-
-#### 9.11 Relatórios e Gráficos 
-    a)análises e resultados provenientes do banco de dados
-
->## Marco de Entrega 03 em:<br>
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 #### a) Pontos Chave do MINI-MUNDO
@@ -154,13 +139,9 @@ A ideia proposta do sistema por eles é de um serviço que, principalmente, enco
 #### d) Modelo Conceitual
 #### e) Modelo Lógico
 #### f) Relatórios e Gráficos mais importantes para o sistema (mínimo 5) 
-#### --> Tempo de apresentação 10 minutos
+#### --> Tempo de apresentação 6 minutos e 40 segundos
 
 
 ### 11 Backup completo do banco de dados postgres 
-    a) deve ser realizado no formato "backup" 
-        (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
-    b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
-    c) informar aqui o grupo de alunos/dupla que realizou o teste.
 
->## Marco de Entrega 04 em:<br>
+![Backup](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/borajogar.backup?raw=true "Backup")
