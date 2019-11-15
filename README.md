@@ -121,8 +121,7 @@ Versão adaptada para o escopo do trabalho
 ### 7	MODELO FÍSICO<br>
         
 ![Códigos do modelo físico](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/BD1_Fisico.sql?raw=true "Modelo físico")
-        
->## Marco de Entrega 01 em:<br>
+
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 
