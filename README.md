@@ -133,9 +133,7 @@ Versão adaptada para o escopo do trabalho
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL<br>
 
-Pecha Kucha: ![link da apresentação](https://docs.google.com/presentation/d/1_lF6OHLRJfAcLGk6o8bO1wXAyVRp4PcTExEKArZhwW8/edit?usp=sharing "Apresentação")
-
-![PDF](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/PechaKucha.pdf "PDF")
+Pecha Kucha: ![PDF](https://github.com/kamairen/trabalho_bd1/blob/master/arquivos/PechaKucha.pdf "PDF")
 
 ### 11 Backup completo do banco de dados postgres 
 
